@@ -74,10 +74,10 @@
 // let date1 = new Date();
 // alert("your current age is " + (date1.getFullYear() - year1));
 
-let game = confirm("are you ready to play the game ");
-let age = prompt("enter your age");
-if (age > 21) {
-  alert("let's play game");
-} else {
-  alert("you are not adult");
-}
+  let game = confirm("are you ready to play the game ");
+  let age = prompt("enter your age");
+  if (age > 21) {
+    alert("let's play game");
+  } else {
+    alert("you are not adult");
+  }

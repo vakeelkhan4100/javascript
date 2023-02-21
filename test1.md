@@ -1,6 +1,7 @@
 # Question 1 (Marks:20)
 
-- Create Bill Calculator
+Create Bill Calculator
+
 - Ask below Questions
 - How many french fries (60rs per piece) do you want to order ?
 - How many burgers (50rs per piece) do you want to order ?
@@ -147,3 +148,13 @@ console.log(num2 _ 2);
    console.log("no");
  }
 ```
+
+// for (let i = 5; i <= 1; i++) {
+// for (let j = 1; j <= i; j++) {
+// if (j % 2 === 0) {
+// document.write("##");
+// }
+// document.write("$");
+// }
+// document.write("<br>");
+// }
