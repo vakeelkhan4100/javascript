@@ -9,7 +9,7 @@ console.log(check);
 
 ```
 
-### Que2. Given an array of numbers, write a function that returns the sum of all the even numbers in the array.
+### Que 2. Given an array of numbers, write a function that returns the sum of all the even numbers in the array.
 
 ```
  function sum(arr) {
@@ -26,7 +26,7 @@ console.log(check);
 
 ```
 
-### Que3.Given two arrays of numbers, write a function that returns a new array that contains only the unique elements from both arrays.
+### Que 3. Given two arrays of numbers, write a function that returns a new array that contains only the unique elements from both arrays.
 
 ```
  function uniqueElements(val1, val2) {
@@ -40,13 +40,13 @@ console.log(check);
 
 ```
 
-### Que4.
+### Que 4.
 
 ```
 
 ```
 
-### Que5.Write a function that takes an array of numbers and returns the largest number in the array.
+### Que 5. Write a function that takes an array of numbers and returns the largest number in the array.
 
 ```
  function sum(arr) {
@@ -63,7 +63,7 @@ console.log(check);
 
 ```
 
-### Que6. Write a function that takes an array of numbers and returns a new array that only contains the even numbers from the original array.
+### Que 6. Write a function that takes an array of numbers and returns a new array that only contains the even numbers from the original array.
 
 ```
  let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -75,7 +75,7 @@ console.log(check);
 
 ```
 
-### Que7.
+### Que 7. Write a function that takes an array of strings and returns a new array that only contains strings with more than 5 characters.
 
 ```
 const arr = ["vakeel", "jamil", "sam", "aslam"];
@@ -93,7 +93,7 @@ console.log(ans);
 
 ```
 
-### Que8.Write a function that takes two arrays of numbers and returns a new array that contains the intersection of the two arrays (i.e. only the numbers that appear in both arrays).
+### Que 8. Write a function that takes two arrays of numbers and returns a new array that contains the intersection of the two arrays (i.e. only the numbers that appear in both arrays).
 
 ```
 function intersection(arr1, arr2) {
@@ -110,7 +110,7 @@ console.log(ans);
 
 ```
 
-### Que9.Write a function that takes an array of numbers and returns a new array where each element is the square of the original element
+### Que 9 . Write a function that takes an array of numbers and returns a new array where each element is the square of the original element
 
 ```
 let arr = [1, 2, 3, 4, 5, 6, 6, 2, 5];
@@ -122,7 +122,7 @@ console.log(ans);
 
 ```
 
-### Que10.Write a function that takes an array of numbers and returns the average of all the numbers in the array.
+### Que 10 . Write a function that takes an array of numbers and returns the average of all the numbers in the array.
 
 ```
  let arr = [10, 20, 30, 40, 50];
@@ -136,7 +136,7 @@ console.log(ans);
 
 ```
 
-### Que11.Write a function that takes an array of numbers and returns a new array that only contains numbers that are greater than 5. Use filter function
+### Que 11. Write a function that takes an array of numbers and returns a new array that only contains numbers that are greater than 5. Use filter function
 
 ```
 let arr = [1, 4, 5, 6, 8, 10];
@@ -148,7 +148,7 @@ console.log(ans);
 
 ```
 
-### Que12. Write a function that takes an array of numbers and returns a new array where each element is the original element plus 1. use map function
+### Que 12. Write a function that takes an array of numbers and returns a new array where each element is the original element plus 1. use map function
 
 ```
  let arr = [1, 4, 5, 6, 8, 10];
@@ -160,13 +160,13 @@ console.log(ans);
 
 ```
 
-### Que13.Write a function that takes an array of numbers and returns a new array that contains only the unique numbers using reduce.
+### Que 13. Write a function that takes an array of numbers and returns a new array that contains only the unique numbers using reduce.
 
 ```
 
 ```
 
-### Que14. Write a function that takes an array of strings and returns the total number of characters in all the strings using reduce.
+### Que 14. Write a function that takes an array of strings and returns the total number of characters in all the strings using reduce.
 
 ```
  let arr = ["my", "name", "is", "wecode"];
@@ -180,9 +180,7 @@ console.log(ans);
 
 ```
 
-### Que15.Write a function that takes an array of strings and sorts them by their length in ascending order.
-
-// Example usage
+### Que 15. Write a function that takes an array of strings and sorts them by their length in ascending order.
 
 ```
 let arr = ["apple", "banana", "cherry", "date"];
@@ -194,7 +192,7 @@ console.log(ans);
 
 ```
 
-### Que16. Write a function that takes an array of numbers and returns the second highest number
+### Que 16. Write a function that takes an array of numbers and returns the second highest number
 
 ```
 let arr = [10, 20, 30, 40, 50, 60];
@@ -217,7 +215,7 @@ console.log(ans);
 
 ```
 
-### Que17.Write a function that takes an array of numbers and returns a new array with all the unique numbers.
+### Que 17. Write a function that takes an array of numbers and returns a new array with all the unique numbers.
 
 ```
 let arr = [1, 2, 3, 4, 5, 6, 6, 2, 5];
@@ -231,7 +229,7 @@ console.log(ans);
 
 ```
 
-### Que18.Write a function that takes an array of strings and returns a new array with only the strings that contain the letter "a".
+### Que 18. Write a function that takes an array of strings and returns a new array with only the strings that contain the letter "a".
 
 ```
 let arr = ["a", "a", "b", "c", "d", "a", "e", "a"];
@@ -242,7 +240,7 @@ let arr = ["a", "a", "b", "c", "d", "a", "e", "a"];
  console.log(ans);
 ```
 
-### Que19.Write a function that takes an array of numbers and returns a new array with the numbers sorted in ascending order.
+### Que 19. Write a function that takes an array of numbers and returns a new array with the numbers sorted in ascending order.
 
 ```
 let arr = [1, 2, 10, 7, 6, 8, 9, 5];
@@ -254,7 +252,7 @@ console.log(ans);
 
 ```
 
-### Que20.Write a function that takes an array of strings and flattens each string into an array of characters, then flattens the result into a single array.
+### Que 20. Write a function that takes an array of strings and flattens each string into an array of characters, then flattens the result into a single array.
 
 ```
 let arr = ["hello", "world"];
