@@ -214,8 +214,9 @@
 // let num2 = "637516";
 // console.log(num1.padStart(10, "*"));
 // console.log(num2.padEnd(10, "*"));
-
-let print = prompt("what do you print ?");
+ 
+let print = prompt("what do you print ?"
+);
 let time = +prompt("how many time do you want to print? ");
 // let frequency = +prompt("what is the frequency?");
 // let clear = setInterval(function () {

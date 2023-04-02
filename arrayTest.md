@@ -129,7 +129,7 @@ console.log(ans);
  let ans = arr.reduce(average, 0);
  function average(val, val2) {
    let total = val + val2;
-   return total / 5;
+   return total / arr.lenght;
  }
 
  console.log(ans);

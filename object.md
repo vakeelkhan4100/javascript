@@ -100,3 +100,17 @@ object:-
 // }
 
 ```
+
+### Que 10. Create a JavaScript function inside an object which finds max of 3 numbers. Now call this function of the object and print the maximum number.
+
+```
+ const obj = {
+   function: function findsMax(arr) {
+     let max = Math.max(...arr);
+     console.log(max);
+   },
+ };
+ let cal = obj.function([1, 6, 3]);
+
+```
+

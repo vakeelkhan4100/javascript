@@ -52,7 +52,7 @@
 //  let mobileNumber = prompt("What is your mobile number?");
 // let accountNumber = prompt("What is your account number?");
 // let cardNumber = prompt("What is your atm card number?");
-let aadharNumber = prompt("What is your aadhar number?");
+// let aadharNumber = prompt("What is your aadhar number?");
 
 // Mask last 3 digits of the mobile number
 // let sliceNum = mobileNumber.slice(0, 7);
@@ -63,9 +63,6 @@ let aadharNumber = prompt("What is your aadhar number?");
 // let atm = cardNumber.slice(0, 4);
 // let slice = atm.padEnd(12, "*");
 // console.log(slice);
-
- 
- 
 
 // Question 6
 // Ask below questions :
@@ -112,3 +109,50 @@ let aadharNumber = prompt("What is your aadhar number?");
 // } else {
 //   alert("sorry try again");
 // }
+
+// for (let i = 11; i >= 1; i--) {
+//   let value = "" + "*";
+
+//   if (i % 2 === 1) {
+//     console.log(value.repeat(i));
+//   }
+// }
+
+// for (let i = 1; i <= 11; i++) {
+//   let value = "" + "$";
+
+//   if (i % 2 === 1) {
+//     console.log(value.repeat(i));
+//   }
+// }
+// let space = "&nbsp";
+// let star = "$";
+// let count = 0;
+// for (let i = 5; i >= 1; i--) {
+//   count++;
+//   document.write(space.repeat(i) + star.repeat(count), "<br>");
+// }
+
+// // 1 224 3339 44412 555520
+// str =    1
+// for(let n = 1;n<=5;n++){
+// str++
+// sqr =( str += "")
+//     document.write(sqr.repeat;)
+// }
+// let star = "*";
+// let space = "&nbsp";
+// let count = 0;
+// for (let i = 5; i >= 1; i--) {
+//   count++;
+//   document.write(
+//     space.repeat(count) + star.repeat(i) + space.repeat(count),
+//     "<br>"
+//   );
+// }
+
+// let str = "9581894461";
+// let str2 = "958***";
+// let str3 = "4461";
+// console.log(str2 + str3);
+
