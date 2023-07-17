@@ -265,3 +265,104 @@
 //   console.log(this.arr.concat(value));
 // };
 // print.call(obj, 5, 10);
+
+// let a = 10;
+// console.log(--a + --a + a-- + a-- + --a);
+
+//   document.getElementById("") function () {
+//   var number = document.getElementById("number").value;
+//   document.getElementById("demoss").innerHTML;
+// }
+
+// document.getElementById("result").addEventListener("click", function () {
+//   let countryName = document.getElementById("country").value;
+//   const countryRequest = new XMLHttpRequest();
+//   countryRequest.open(
+//     "GET",
+//     `https://restcountries.com/v3.1/name/${countryName}`
+//   );
+//   countryRequest.send();
+//   countryRequest.onload = function () {
+//     const response = JSON.parse(this.responseText);
+//     console.log(response);
+//     document.getElementById("Country_Capital").textContent =
+//       response[0].capital[0];
+//     document.getElementById("Country_Population").textContent =
+//       response[0].population;
+//     if (countryName == "India") {
+//       document.getElementById("img").src = "India.png";
+//     } else if (countryName == "Pakistan") {
+//       document.getElementById("img").src = "Pakistan.png";
+//     } else if (countryName == "Saudi Arab") {
+//       document.getElementById("img").src = "SaudiArab.jpeg";
+//     } else if (countryName == "Aus") {
+//       document.getElementById("img").src = "Aus.png";
+//     }
+//   };
+// });
+
+let prom = new Promise(function (resolve, reject) {
+  if (30 > 20) {
+    resolve();
+  } else {
+    reject();
+  }
+});
+prom
+  .then(function () {
+    console.log("Hello");
+  })
+  .catch(function () {
+    console.log("Error");
+  });
+
+function test() {
+  const prom = fetch("https://restcountries.com/v3.1/name/india");
+  prom
+    .then(function (res) {
+      return res.json();
+    })
+    .then(function (response) {
+      console.log(response[0].capital);
+    })
+    .then(function () {
+      return fetch("https://restcountries.com/v3.1/name/japan");
+    })
+    .then(function (res) {
+      return res.json();
+    })
+    .then(function (resolve) {
+      console.log(resolve[0].capital);
+    })
+    .catch(function (reject) {
+      console.log("error...");
+    });
+}
+test();
+
+if (10 < 20) {
+  console.log("hello");
+}
+
+function oddEven(num1, num2) {
+  if (num1 % 2 === 0 && num2 % 2 === 1) {
+    console.log("YES");
+  } else {
+    console.log("NO");
+  }
+}
+oddEven(10, 11);
+
+function print(num) {
+  for (let a = 0; a <= num / 2; a++) {
+    console.log("hello");
+  }
+  for (let a = 1; a <= num / 2; a++) {
+    console.log("word");
+  }
+}
+print(10);
+
+for (let index = 1; index <= 5; index++) {
+  console.log(index);
+}

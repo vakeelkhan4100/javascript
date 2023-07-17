@@ -1,5 +1,5 @@
-// var name = "vakeel"
-// var city = 'city'
+var name = "vakeel"
+var city = 'city'
 // var address = "karkwal"
 // const fatherName = "Saradeen khan"
 // const motherName = "Raesi"
